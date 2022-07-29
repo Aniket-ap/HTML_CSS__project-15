@@ -101,7 +101,7 @@ body{
 }
 
 .section1__split{
-    height: 100vh;
+    height: 700px;
     display: flex;
 }
 
@@ -294,5 +294,82 @@ body{
 .card__data span{
     color: #e32834;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.project__card:nth-child(3) .card__img{
+    padding: 30px 0;
+}
+
+.project__card:nth-child(3) .card__img img{
+    height: 249px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    background-color: #1E1E1E;
+    padding: 40px;
+    margin: 20px auto;
+}
+
+/* .banner__left{
+} */
+
+.banner__left .heading h1{
+    font-size: 50px;
+}
+
+.banner__left .heading span{
+    font-size: 15px;
+    opacity: .7;
+}
+
+.banner__right button{
+    padding: 10px 30px;
+    background-color: #C91B28;
+    border: none;
+    color: #fff;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.footer{
+    margin: 20px 0 0 0;
+}
+
+.footer ul{
+    margin-bottom: 20px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer li{
+    margin: 0 20px;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.footer__icon{
+    background-color: #1E1E1E;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo img{
+    width: 90px;
+}
+
+.footer__icons i{
+    background-color: #181818;
+    font-size: 30px;
+    margin: 0 30px;
     cursor: pointer;
 }
